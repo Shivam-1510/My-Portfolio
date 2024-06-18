@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(134, 134, 225);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(134, 134, 225);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.projects-content {
+    max-width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+.projects-section {
+    margin: 60px 0;
+}
+
+.projects-section h1 {
+    color: rgb(149, 69, 225);
+    font-size: 2.5rem;
+}
+
+.projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-list li {
+    margin: 15px 0;
+}
+
+.projects-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.projects-list li a:hover {
+    color: rgb(134, 134, 225);
+}
+.footer {
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 123px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
+
+.footer-second {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-second ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-second ul li {
+    margin: 0 15px;
+}
+
+.footer-second ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-second ul li a:hover {
+    color: rgb(134, 134, 225);
+}
